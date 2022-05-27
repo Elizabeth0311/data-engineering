@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-browser = webdriver.Chrome("/Users/hyeri/study/project/chromedriver") 
+browser = webdriver.Chrome() #chromedriver.exe 파일이 있는 경로를 ()안에 넣어줘야함
 browser.get("http://naver.com") 
 
 # element 객체 생성 / html 클래스 이름 가져오기
