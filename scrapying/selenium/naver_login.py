@@ -21,3 +21,7 @@ browser.find_element_by_id("log.login").click()
 # 아이디 잘못입력했을 경우 
 browser.find_element_by_id("id").clear()
 browser.find_element_by_id("id").send_keys("my_id")
+
+# html 페이지 가져오기
+print(browser.page_source)
+
